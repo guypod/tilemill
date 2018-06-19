@@ -54,12 +54,13 @@
     "sax": "0.6.x",
     "semver": "~4.1.0",
     "sphericalmercator": "~1.0.2",
-    "sqlite3": "~3.1.1",
+    "sqlite3": "~4.0.0",
     "step": "~0.0.5",
     "tilelive": "~5.12.1",
     "tilelive-mapnik": "~0.6.16 ",
     "underscore": "~1.6.0",
-    "wax": "6.4.2"
+    "wax": "6.4.2",
+    "snyk": "^1.83.0"
   },
   "optionalDependencies": {
     "topcube": "https://github.com/creationix/topcube/tarball/96ff0177bf8f490cabd78e"
@@ -73,7 +74,9 @@
     "preinstall": "npm install npm",
     "start": "./index.js",
     "test": "mocha --timeout 100000",
-    "postinstall": "node ./lib/gitutil.js"
+    "postinstall": "node ./lib/gitutil.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "tilemill": "./index.js"
@@ -81,5 +84,6 @@
   "engineStrict": true,
   "engines": {
     "node": "0.8.x || 0.10.x"
-  }
+  },
+  "snyk": true
 }
