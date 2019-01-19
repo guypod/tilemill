@@ -44,7 +44,7 @@
     "millstone": "~0.6.16",
     "mkdirp": "~0.5.0",
     "modestmaps": "3.3.5",
-    "npm": "2.1.x",
+    "npm": "6.6.0",
     "optimist": "~0.6.0",
     "passport": "0.2.x",
     "passport-oauth": "1.0.x",
