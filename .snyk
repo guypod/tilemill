@@ -1,0 +1,65 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - millstone > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - sqlite3 > node-pre-gyp > hawk > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - millstone > sqlite3 > node-pre-gyp > hawk > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mbtiles > sqlite3 > node-pre-gyp > hawk > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mapnik > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mapnik > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mapnik > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mbtiles > sqlite3 > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mapnik > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mapnik > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mbtiles > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mapnik > node-pre-gyp > hawk > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - millstone > sqlite3 > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - millstone > sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mbtiles > sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mapnik > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - millstone > sqlite3 > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mbtiles > sqlite3 > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - millstone > sqlite3 > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mbtiles > sqlite3 > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - millstone > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mbtiles > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mapnik > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - millstone > sqlite3 > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+    - mbtiles > sqlite3 > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T07:34:26.168Z'
+  'npm:mime:20170907':
+    - millstone > mime:
+        patched: '2019-03-30T07:34:26.168Z'
