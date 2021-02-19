@@ -39,7 +39,7 @@
     "generic-pool": "~2.4.1",
     "glob": "~7.0.0",
     "mapbox-upload": "~3.0.0",
-    "mapnik": "~3.5.0",
+    "mapnik": "~4.5.6",
     "mbtiles": "~0.8.2",
     "millstone": "~0.6.16",
     "mkdirp": "~0.5.0",
